@@ -1,0 +1,50 @@
+.logo {
+clip-path: polygon(20.05% 0%, 100% 0%, 86.02% 100%, 0% 100%);
+    background-color: #6b21a8; /* Example background */
+      padding: 1rem 2rem;
+      color: white;
+      font-weight: bold;
+      display: inline-block;
+}
+ @keyframes marquee-left {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+
+    
+  }
+
+  
+ @keyframes marquee-right {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(100%);
+    }
+
+    
+  }
+  .marquee-left p {
+    animation: marquee-left 25s linear infinite;
+  }
+
+  .marquee-right p {
+    animation: marquee-right 25s linear infinite;
+  }
+
+  .cursor{
+    width: 30px;
+    height: 30px;
+  }
+
+/* .marquee-left p { */
+    /* animation: marquee-left 25s linear infinite;
+  }
+
+  .marquee-right p {
+    animation: marquee-right 25s linear infinite;
+  } */

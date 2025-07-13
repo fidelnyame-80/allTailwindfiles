@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colorlib | Free Bootstrap Website</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="colorlib.css">
+</head>
+
+<body class="overflow-x-hidden">
+    <!-- Header -->
+    <header>
+        <!-- First div -->
+        <div class="bg-[#464545] w-full h-16 flex justify-between  md:w-full h-18 lg:w-full ">
+            <section class="flex">
+                <!-- logo -->
+                <div class="pt-4 px-3">
+                    <img src="colorlib.png" class="h-8 w-65 ">
+                </div>
+
+                <!-- Coza Store -->
+                <div class="bg-black w-50 hidden md:block lg:block w-50 h-full p-3 ">
+                    <div>
+                        <p class="text-2xl text-white"> + COZA STORE</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Icons -->
+            <div class="flex w-100 h-15 transform  lg:translate-x-[5.5rem] md:translate-x-[8rem] group place-self-end">
+                <div class="hover:bg-black cursor-pointer border-x border-[#c4c4c4] px-3 pt-5 hidden md:block lg:block">
+                    <i class="fa-solid fa-desktop fa-2xl" style="color: #c4c4c4;"></i>
+                </div>
+                <div class="border-r border-[#c4c4c4] px-3 pt-5 hidden md:block lg:block hover:bg-black cursor-pointer">
+                    <i class="fa-solid fa-tablet-screen-button fa-2xl" style="color: #c4c4c4;"></i>
+                </div>
+                <div class="border-r border-[#c4c4c4] hover:bg-black cursor-pointer px-3 pt-5 hidden md:block lg:block">
+                    <i class="fa-solid fa-mobile-screen-button fa-2xl" style="color: #c4c4c4;"></i>
+                </div>
+                <div
+                    class="border-r border-[#c4c4c4]  transform  translate-x-[11rem] lg:translate-x-[0] md:translate-x-[0] px-3 py-2 translate-y-[-2px] bg-green-500 pt-5 lg:block">
+                    <i class="fa-solid fa-cart-shopping fa-2xl" style="color: #f7f7f8;"></i>
+                </div>
+
+                <div class="border-r border-[#c4c4c4] px-5 pt-5 hidden hover:bg-black cursor-pointer md:block lg:block text-[#b3b6b7]">
+                    <i class="fa-solid fa-xmark fa-2xl"></i>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- nav links  -->
+        <div>
+            <nav class="flex justify-between text-center items-center py-4  bg-gray-200 text-black space-x-4">
+                <h1 class="text-2xl font-bold itaclic w-50">COZA STORE</h1>
+
+                <ul class="flex space-x-4 group hidden md:flex block lg:flex block">
+                    <li><a href="#"
+                            class="text-black hover:text-blue-200 transition-transform transform hover:scale-110">Home</a>
+                    </li>
+                    <li><a href="#"
+                            class="text-black hover:text-blue-200 transition-transform transform hover:scale-110">About</a>
+                    </li>
+                    <span class="bg-red round-full mt-[-10] hidden">hot</span>
+                    <li><a href="#"
+                            class="text-black hover:text-blue-200 transition-transform transform hover:scale-110 hidden">Features</a>
+                    </li>
+                    <li><a href="#"
+                            class="text-black hover:text-blue-200 transition-transform transform hover:scale-110">Blog</a>
+                    </li>
+                    <li><a href="#"
+                            class="text-black hover:text-blue-200 transition-transform transform hover:scale-110 hidden">Account</a>
+                    </li>
+                    <li><a href="#"
+                            class="text-black hover:text-blue-200 transition-transform transform hover:scale-110">Contact</a>
+                    </li>
+                </ul>
+
+                <!-- icon section -->
+                <div
+                    class="flex space-x-3 transform translate-x-[-1rem] md:translate-x-[] lg:translate-x-[] text-black">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero section -->
+    <section class="bg-[url(hero1.jpg)] bg-cover bg-center w-full h-100 ">
+        <h1 class="text-[2rem] m-3 text-black relative top-[5rem] animate">Men Collection 2018</h1>
+        <h1 class="text-7xl font-bold m-3 text-black relative top-[5rem]">NEW ARRIVALS</h1>
+    </section>
+
+    <section class="flex flex-col md:grid grid-cols-1 lg:grid grid-cols-3 gap-4 m-5">
+        <div
+            class="bg-[url(female-removebg-preview.png)] bg-cover bg-center w-115 h-45 border border-gray-500 place-self-center hover:opacity-50 hover:bg-blue-300 md:w-65 h-50 lg:w-100 h-50">
+            <p class="font-bold text-3xl pl-5 pt-5">Women</p>
+            <p class="text-md pl-5">Spring 2018</p>
+        </div>
+
+        <div
+            class="bg-[url(male-removebg-preview.png)] bg-cover bg-center w-115 h-45 border border-gray-500 place-self-center hover:opacity-50 hover:bg-blue-300 md:w-65 h-50 lg:w-100 h-50">
+            <p class="font-bold text-3xl pl-5 pt-5">Men</p>
+            <p class="text-md pl-5">Spring 2018</p>
+        </div>
+
+        <div
+            class="w-115 h-45 border border-gray-500 place-self-center hover:opacity-50 hover:bg-blue-300 md:w-65 h-50 lg:w-100 h-50">
+            <p class="font-bold text-3xl pl-5 pt-5">Accessories</p>
+            <p class="text-md pl-5">Spring 2018</p>
+            <img src="cap-removebg-preview.png" class="w-30 h-30 place-self-end relative top-[-3rem]">
+
+        </div>
+    </section>
+
+    <!-- Product Overview -->
+    <section class="">
+        <h1 class="font-bold text-3xl place-self-center mt-20 md:place-self-start ml-3 lg:place-self-start ml-3">Product
+            Overview</h1>
+
+        <div
+            class="flex flex-col place-self-center text-lg px-5 space-x-4 md:place-self-start mt-5 lg:place-self-start mt-5">
+            <div class="place-self-center text-lg px-5 space-x-4 md:place-self-start mt-5 lg:place-self-start mt-5">
+                <a href="#" class="underline decoration-solid focus:underline decoration-solid">All Products</a>
+                <a href="#" class="focus:underline decoration-solid">Women</a>
+                <a href="#" class="focus:underline decoration-solid">Men</a>
+                <a href="#" class="focus:underline decoration-solid">Bag</a>
+                <a href="#" class="focus:underline decoration-solid">Shoes</a>
+                <a href="#" class="focus:underline decoration-solid">Watches</a>
+            </div>
+
+            <div class="m-4 flex gap-3">
+                <div class="w-24 text-right p-3 h-13 text-lg border border-gray-500 flex space-x-4"><i
+                        class="fa-solid fa-filter"></i>Filter</div>
+
+                <div class="w-24 text-right p-3 h-13 text-lg border border-gray-500 flex space-x-4"><i
+                        class="fa-solid fa-magnifying-glass"></i>Search</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Shopping Cards -->
+    <section
+        class="flex flex-col mt-3 place-self-center space-y-8 md:grid grid-cols-2 gap-5 space-x-3 place-self-center lg:grid grid-cols-4 gap-5 space-x-4 place-self-center mx-3">
+        <div class="">
+            <img src="man1.jpg" class="w-80 h-120 md:w-80 h-10">
+            <span class="text-gray-400">Men African Wear 1</span><br>
+            <span class="text-gray-700">$16.64</span>
+        </div>
+
+        <div class="">
+            <img src="woman1.jpg" class="w-80 h-120">
+        </div>
+
+        <div class="">
+            <img src="man2.jpg" class="w-80 h-120">
+        </div>
+
+        <div class="">
+            <img src="woman2.jpg" class="w-80 h-120">
+        </div>
+
+        <div class="">
+            <img src="man3.jpg" class="w-80 h-120 md:w-80 h-10">
+            <span class="text-gray-400">Men African Wear 1</span><br>
+            <span class="text-gray-700">$16.64</span>
+        </div>
+
+        <div class="">
+            <img src="woman3.jpg" class="w-80 h-120 md:w-80 h-10">
+            <span class="text-gray-400">Men African Wear 1</span><br>
+            <span class="text-gray-700">$16.64</span>
+        </div>
+
+        <div class="">
+            <img src="man4.jpg" class="w-80 h-120 md:w-80 h-10">
+            <span class="text-gray-400">Men African Wear 1</span><br>
+            <span class="text-gray-700">$16.64</span>
+        </div>
+
+        <div class="">
+            <img src="woman4.jpg" class="w-80 h-120 md:w-80 h-10">
+            <span class="text-gray-400">Men African Wear 1</span><br>
+            <span class="text-gray-700">$16.64</span>
+        </div>
+
+        <div class="">
+            <img src="man5.jpg" class="w-80 h-120 md:w-80 h-10">
+            <span class="text-gray-400">Men African Wear 1</span><br>
+            <span class="text-gray-700">$16.64</span>
+        </div>
+
+        <div class="">
+            <img src="woman5.jpg" class="w-80 h-120 md:w-80 h-10">
+            <span class="text-gray-400">Men African Wear 1</span><br>
+            <span class="text-gray-700">$16.64</span>
+        </div>
+
+        <div class="">
+            <img src="man6.jpg" class="w-80 h-120 md:w-80 h-10">
+            <span class="text-gray-400">Men African Wear 1</span><br>
+            <span class="text-gray-700">$16.64</span>
+        </div>
+
+        <div class="">
+            <img src="woman6.jpg" class="w-80 h-120 md:w-80 h-10">
+            <span class="text-gray-400">Men African Wear 1</span><br>
+            <span class="text-gray-700">$16.64</span>
+        </div>
+
+        <div class="">
+            <img src="man7.jpg" class="w-80 h-120 md:w-80 h-10">
+            <span class="text-gray-400">Men African Wear 1</span><br>
+            <span class="text-gray-700">$16.64</span>
+        </div>
+
+        <div class="">
+            <img src="woman7.jpg" class="w-80 h-120 md:w-80 h-10">
+            <span class="text-gray-400">Men African Wear 1</span><br>
+            <span class="text-gray-700">$16.64</span>
+        </div>
+
+        <div class="">
+            <img src="man8.jpg" class="w-80 h-120 md:w-80 h-10">
+            <span class="text-gray-400">Men African Wear 1</span><br>
+            <span class="text-gray-700">$16.64</span>
+        </div>
+
+        <div class="">
+            <img src="woman8.jpg" class="w-80 h-120 md:w-80 h-10">
+            <span class="text-gray-400">Men African Wear 1</span><br>
+            <span class="text-gray-700">$16.64</span>
+        </div>
+    </section>
+
+    <footer class="mt-10 bg-[#464545] w-full h-100">
+        <div class="">
+
+        </div>
+    </footer>
+</body>
+
+</html>

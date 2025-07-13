@@ -1,0 +1,17 @@
+@keyframes animateText{
+    0%{
+        display: hidden;
+    }
+
+    10%{
+        transform: rotate(360deg);
+    }
+
+    100%{
+        transform: rotateX(360deg)
+    }
+}
+
+.animate{
+    animation: animateText 10s linear infinite;
+}
